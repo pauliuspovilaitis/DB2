@@ -2,7 +2,7 @@ set current schema = 'XXXX';
 
 drop function decimal_replace;
 CREATE function decimal_replace (INP_DECIMAL decimal(15, 2))
-	  RETURNS varchar(50)                                    
+      RETURNS varchar(50)                                    
       SPECIFIC decimal_replace
       NOT DETERMINISTIC
       NO EXTERNAL ACTION
